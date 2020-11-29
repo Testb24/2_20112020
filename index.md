@@ -2,8 +2,8 @@
 <html>
 
 <head>
-  <meta charset="utf8" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style4.css" />
   <title>Maquette Reservia</title>
   <script src="https://kit.fontawesome.com/e599033c94.js" crossorigin="anonymous"></script>
 </head>
@@ -38,6 +38,7 @@
     </header>
   
   </div>
+    </section>
 
   <div id="bloc_page">
 
@@ -63,39 +64,39 @@
 
         <div class="container-filtre">
 
-          <span>
-            <h3 class="filtre_text">Filtres</h3>
-          </span>
+          
+          <h3 class="filtre_text">Filtres</h3>
+          
 
-          <span class="container-filtre">
-            <span class="filtre">
+          <div class="container-filtre">
+            <div class="filtre">
               <div class="blue_circle">
                 <i class="fas fa-money-bill-wave blue blue-hover"></i>
               </div>
               <h3 class="filtre_text">Economique</h3>
-            </span>
+            </div>
 
-            <span class="filtre">
+            <div class="filtre">
               <div class="blue_circle">
                 <i class="fas fa-child blue blue-hover"></i>
               </div>
               <h3 class="filtre_text">Familial</h3>
-            </span>
+            </div>
 
-            <span class="filtre">
+            <div class="filtre">
               <div class="blue_circle">
                 <i class="fas fa-heart blue blue-hover"></i>
               </div>
               <h3 class="filtre_text">Romantique</h3>
-            </span>
+            </div>
 
-            <span class="filtre">
+            <div class="filtre">
               <div class="blue_circle">
                 <i class="fas fa-dog blue blue-hover"></i>
               </div>
               <h3 class="filtre_text">Animaux autorisés</h3>
-            </span>
-          </span>
+            </div>
+          </div>
 
         </div>
 
@@ -103,7 +104,7 @@
           
             <i class="fas fa-info information_icone"></i>
           
-          <span class="texte-info"><p>Plus de 500 logements sont disponibles dans cette ville</p></span>          
+          <div class="texte-info"><p>Plus de 500 logements sont disponibles dans cette ville</p></div>          
         </div>
 
       </div>
@@ -453,30 +454,29 @@
 
   </div>
 
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+    
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        const id = entry.target.getAttribute('id');
+        if (entry.intersectionRatio > 0) {
+          document.querySelector(` a[href="#${id}"]`).parentElement.classList.add('active');
+        } else {
+          document.querySelector(` a[href="#${id}"]`).parentElement.classList.remove('active');
+        }
+      });
+    });
+    
+    // Track all sections that have an `id` applied
+    document.querySelectorAll('section[id]').forEach((section) => {
+      observer.observe(section);
+    });
+    
+    });
+    
+  </script>
 
 </body>
 
 </html>
-
-<script>
-window.addEventListener('DOMContentLoaded', () => {
-
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    const id = entry.target.getAttribute('id');
-    if (entry.intersectionRatio > 0) {
-      document.querySelector(` a[href="#${id}"]`).parentElement.classList.add('active');
-    } else {
-      document.querySelector(` a[href="#${id}"]`).parentElement.classList.remove('active');
-    }
-  });
-});
-
-// Track all sections that have an `id` applied
-document.querySelectorAll('section[id]').forEach((section) => {
-  observer.observe(section);
-});
-
-});
-
-</script>
