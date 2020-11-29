@@ -643,7 +643,10 @@ h3, p {
     div.active {
         border-bottom: 5px var(--color1) solid;        
         border-top: 2px var(--color1) none;
-      }    
+      }
+      .container_footer > div {
+        width: 80%;
+    }
 }
 
 @media (max-width: 420px) {
