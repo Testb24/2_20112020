@@ -430,8 +430,6 @@ h3, p {
     border-top-right-radius: 11px;
 }
 
-
-
 .icone_lieu {
     position: relative;
 }
@@ -500,7 +498,6 @@ h3, p {
     .column_modele_3 {
         width: 46%;
     }
-
 }
 
 @media (max-width: 790px) {
@@ -509,7 +506,6 @@ h3, p {
         max-width: 450px;
         min-width: 250px;
     }
-
     .collection_2 {
         min-width: 250px;
         display: flex;
@@ -649,13 +645,11 @@ h3, p {
     div.nav_anchor {
         border-bottom: 5px var(--color3) solid;
         border-top: 2px var(--color1) none;
-
     }
     div.active {
         border-bottom: 5px var(--color1) solid;        
         border-top: 2px var(--color1) none;
-      }
-    
+      }    
 }
 
 @media (max-width: 420px) {
@@ -677,7 +671,3 @@ h3, p {
         min-width: 60px;
     }
 }
-
-div.active > a {
-    border-top : 2px blue none;
-  }
