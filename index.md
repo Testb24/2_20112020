@@ -55,7 +55,7 @@
               <div class="icone_lieu greyback button-icone">
                 <i class="fas fa-map-marker-alt"></i>
               </div>
-              <input id="ville" name="ville" type="search" value="Marseille, France" class="button-champs"></input>
+              <input id="ville" name="ville" type="search" value="Marseille, France" class="button-champs">
               <button class="button-clic blueback grey">Rechercher</button>
             </div>
           </form>
@@ -122,7 +122,7 @@
           <div class="container_modele_1">
             <div class="carte-modele-1">
               <div>
-                <img class="carte-modele-1-img" src="./images/Hebergement/photo1.jpg" alt="intérieur location" />
+                <img class="carte-modele-1-img" src="./images/Hebergement/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="intérieur location" />
                 
                 <div class="carte-modele-1-txt">
                     <h3>Auberge La Cannebière</h3>
@@ -141,7 +141,7 @@
           <div class="container_modele_1">
             <div class="carte-modele-1">
               <div>
-                <img class="carte-modele-1-img" src="./images/Hebergement/photo2.jpg" alt="intérieur location" />
+                <img class="carte-modele-1-img" src="./images/Hebergement/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="intérieur location" />
                 
                 <div class="carte-modele-1-txt">
                     <h3>Hôtel du port</h3>
@@ -160,7 +160,7 @@
           <div class="container_modele_1">
             <div class="carte-modele-1">
               <div>
-                <img class="carte-modele-1-img" src="./images/Hebergement/photo3.jpg" alt="intérieur location" />
+                <img class="carte-modele-1-img" src="./images/Hebergement/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="intérieur location" />
                 
                 <div class="carte-modele-1-txt">
                     <h3>Hôtel Les mouettes</h3>
@@ -179,7 +179,7 @@
           <div class="container_modele_1">
             <div class="carte-modele-1">
               <div>
-                <img class="carte-modele-1-img" src="./images/Hebergement/photo4.jpg" alt="intérieur location" />
+                <img class="carte-modele-1-img" src="./images/Hebergement/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="intérieur location" />
                 
                 <div class="carte-modele-1-txt">
                     <h3>Hôtel de la mer</h3>
@@ -198,7 +198,7 @@
           <div class="container_modele_1">
             <div class="carte-modele-1">
               <div>
-                <img class="carte-modele-1-img" src="./images/Hebergement/photo5.jpg" alt="intérieur location" />
+                <img class="carte-modele-1-img" src="./images/Hebergement/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="intérieur location" />
                 
                 <div class="carte-modele-1-txt">
                     <h3>Auberge Le Panier</h3>
@@ -217,7 +217,7 @@
           <div class="container_modele_1">
             <div class="carte-modele-1">
               <div>
-                <img class="carte-modele-1-img" src="./images/Hebergement/photo6.jpg" alt="intérieur location" />
+                <img class="carte-modele-1-img" src="./images/Hebergement/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="intérieur location" />
                 
                 <div class="carte-modele-1-txt">
                     <h3>Hôtel chez Amina</h3>
@@ -254,7 +254,7 @@
                 <div class="container_modele_2">
                   <div class="carte-modele-2">
                     <div>
-                      <img class="carte-modele-2-img" src="./images/Hebergement/photo7.jpg" alt="intérieur location" />
+                      <img class="carte-modele-2-img" src="./images/Hebergement/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="intérieur location" />
                       
                       <div class="carte-modele-2-txt">
                         <div>
@@ -277,7 +277,7 @@
                 <div class="container_modele_2">
                   <div class="carte-modele-2">
                     <div>
-                      <img class="carte-modele-2-img" src="./images/Hebergement/photo8.jpg" alt="intérieur location" />
+                      <img class="carte-modele-2-img" src="./images/Hebergement/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="intérieur location" />
                       
                       <div class="carte-modele-2-txt">
                         <div>
@@ -300,7 +300,7 @@
                 <div class="container_modele_2">
                   <div class="carte-modele-2">
                     <div>
-                      <img class="carte-modele-2-img" src="./images/Hebergement/photo9.jpg" alt="intérieur location" />
+                      <img class="carte-modele-2-img" src="./images/Hebergement/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="intérieur location" />
                       
                       <div class="carte-modele-2-txt">
                         <div>
@@ -341,7 +341,7 @@
             <div class="container_modele_3">
               <div class="carte-modele-3A">
                 <div>
-                  <img class="carte-modele-3-img" src="./images/Activite/photo1.jpg" alt="intérieur location" />
+                  <img class="carte-modele-3-img" src="./images/Activite/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="intérieur location" />
                   
                   <div class="carte-modele-3-txt">
                       <h3>Auberge La Cannebière</h3>
@@ -355,7 +355,7 @@
             <div class="container_modele_3">
               <div class="carte-modele-3B">
                 <div>
-                  <img class="carte-modele-3-img" src="./images/Activite/photo2.jpg" alt="intérieur location" />
+                  <img class="carte-modele-3-img" src="./images/Activite/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="intérieur location" />
                   
                   <div class="carte-modele-3-txt">
                       <h3>Auberge La Cannebière</h3>
@@ -367,7 +367,7 @@
             <div class="container_modele_3">
               <div class="carte-modele-3C">
                 <div>
-                  <img class="carte-modele-3-img" src="./images/Activite/photo3.jpg" alt="intérieur location" />
+                  <img class="carte-modele-3-img" src="./images/Activite/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="intérieur location" />
                   
                   <div class="carte-modele-3-txt">
                       <h3>Auberge La Cannebière</h3>
@@ -381,7 +381,7 @@
             <div class="container_modele_3">
               <div class="carte-modele-3A">
                 <div>
-                  <img class="carte-modele-3-img" src="./images/Activite/photo4.jpg" alt="intérieur location" />
+                  <img class="carte-modele-3-img" src="./images/Activite/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="intérieur location" />
                   
                   <div class="carte-modele-3-txt">
                       <h3>Auberge La Cannebière</h3>
@@ -395,7 +395,7 @@
             <div class="container_modele_3">
               <div class="carte-modele-3D">
                 <div>
-                  <img class="carte-modele-3-img" src="./images/Activite/photo5.jpg" alt="intérieur location" />
+                  <img class="carte-modele-3-img" src="./images/Activite/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="intérieur location" />
                   
                   <div class="carte-modele-3-txt">
                       <h3>Auberge La Cannebière</h3>
@@ -407,7 +407,7 @@
             <div class="container_modele_3">
               <div class="carte-modele-3D">
                 <div>
-                  <img class="carte-modele-3-img" src="./images/Activite/photo6.jpg" alt="intérieur location" />
+                  <img class="carte-modele-3-img" src="./images/Activite/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="intérieur location" />
                   
                   <div class="carte-modele-3-txt">
                       <h3>Auberge La Cannebière</h3>
