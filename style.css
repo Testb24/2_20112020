@@ -668,3 +668,7 @@ h3, p {
         min-width: 60px;
     }
 }
+
+.markdown-body {
+    width: 100%;
+}
