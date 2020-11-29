@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="style4.css" />
+  <link rel="stylesheet" href="style.css" />
   <title>Maquette Reservia</title>
   <script src="https://kit.fontawesome.com/e599033c94.js" crossorigin="anonymous"></script>
 </head>
