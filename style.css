@@ -78,6 +78,7 @@ html {
 }
 
 .lien {
+    font-weight: bold;
     font-style: normal;
     text-decoration: none;
 
@@ -104,7 +105,16 @@ html {
 
 div.active {
     border-top: 5px var(--color1) solid;
+}
+
+
+.nav_anchor.active > a {
+      color: var(--color1);
   }
+  .nav_anchor > a {
+    color: black;
+}
+
 
 .container_top {
     width: calc( 100% - 30px);
@@ -129,7 +139,7 @@ div.active {
 
 .button-icone {
     height: 40px;
-    width: 30px;
+    width: 35px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,7 +154,7 @@ div.active {
     padding: 0px 0px 0px 10px;
     border: 1px var(--color3) solid;
     flex: 1;
-    max-width: 250px;
+    max-width: 220px;
 }
 
 .button-clic {
@@ -153,9 +163,21 @@ div.active {
     border: 0px white none;
     border-bottom-right-radius: 11px;
     border-top-right-radius: 11px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.container-filtre{
+.text_search {
+    width: 80px;
+}
+.icone_search {
+    width: 0;
+    color: var(--color1);
+}
+
+.container-filtre {
     display: flex;
     flex-wrap:  wrap;
     flex-direction: row;
@@ -676,8 +698,8 @@ h3, p {
         border-top: 2px var(--color1) none;
     }
     div.active {
-        border-bottom: 5px var(--color1) solid;        
-        border-top: 2px var(--color1) none;
+        border-bottom: 5px var(--color1) solid;
+        color: var(--color1);
       }
       .container_footer > div {
         width: 80%;
@@ -689,7 +711,27 @@ h3, p {
         padding: 0px 10px 0px 0px;
     }
 
+    .text_search {
+        width: 0;
+        color: var(--color1);
+        overflow: hidden;
+    }
+    .icone_search {
+        width: 25px;
+        color: white;
+    }
 
+    .button-clic {
+        border-bottom-left-radius: 11px;
+        border-top-left-radius: 11px;
+    }
+    .button-champs {
+        max-width: 290px;
+    }
+
+    .carte-modele-1 {
+        width: 100%;
+        padding-bottom: 60%;
 }
 
 @media screen and (max-width: 420px) {
