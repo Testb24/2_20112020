@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'raleway';
-    src: url('Raleway-Regular.ttf');
+    src: url('./Police_Raleway/Raleway-Regular.ttf');
 }
 
 .blue { 
@@ -15,6 +15,11 @@
 }
 .grey {
     color: var(--color3);
+}
+
+.black {
+    color: var(--color4);
+
 }
 .blueback {
     background-color: var(--color1);
@@ -30,6 +35,7 @@ body {
 
 h1 {
     color:black;
+    font-weight: bold;
 }
 html {
     scroll-behavior: smooth;
@@ -40,7 +46,6 @@ html {
     display: flex;
     flex-wrap :wrap;
     align-items: center;
-    background-color: white;
 }
 .container_nav > div {
     display: flex;
@@ -52,12 +57,11 @@ html {
 }
 
 .nav_logo{
-    width: 15%;
-    min-width: 150px;
-    margin: 30px;
+    width: 100px;
+    margin: 0px 20px;
 }
 .nav_space {
-    width: calc(70%);
+    width: 70%;
     flex: 1;
 }
 .nav_lien {
@@ -72,12 +76,27 @@ html {
     width: auto;
     margin: 30px;
 }
+
+.lien {
+    font-style: normal;
+    text-decoration: none;
+
+}
+.lien:visited {
+    font-style: normal;
+    text-decoration: none;
+};
+
+.bold {
+    font-weight: bold;
+}
+
 .button_on{
     color: black;
 }
 
 #bloc_page {
-    margin: 20px;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -87,17 +106,19 @@ div.active {
   }
 
 .container_top {
-    width: 100%;
+    width: calc( 100% - 30px);
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 0px 10px 0px 20px;
 }
 .container_top > div {
     margin: 10px 0px;
 }
 
-.button-ensemble {
+.button_ensemble {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -121,6 +142,8 @@ div.active {
     border: 0px white none;
     padding: 0px 0px 0px 10px;
     border: 1px var(--color3) solid;
+    flex: 1;
+    max-width: 250px;
 }
 
 .button-clic {
@@ -133,12 +156,15 @@ div.active {
 
 .container-filtre{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:  wrap;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
 }
 
+.filtre_titre{
+    padding: 10px 30px 5px 5px;
+}
 .filtre {
     width: auto;
     height: 40px;
@@ -176,7 +202,7 @@ div.active {
 
 .filtre_text {
     color: var(--color4);
-    padding: 0px 10px 0px 0px;
+    padding: 0px 10px 0px 10px;
 }
 
 .container-filtre-2{
@@ -184,7 +210,7 @@ div.active {
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
+    align-items: baseline;
 }
 
 .information_icone {
@@ -264,8 +290,11 @@ div.active {
     border-top-right-radius: 11px;
 }
 .carte-modele-1-txt {
-    padding: 0px 0px 10px 10px;
-    justify-content: space-between;
+    height: 33%;
+    padding: 0px 0px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 
@@ -304,9 +333,10 @@ div.active {
     border-top-left-radius: 11px;
     border-bottom-left-radius: 11px;
 }
-.carte-modele-2-txt {    
+.carte-modele-2-txt {
+    background-color: red;
     min-width: 100px;
-    padding: 0px 0px 10px 10px;
+    padding: 15px 0px 10px 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
