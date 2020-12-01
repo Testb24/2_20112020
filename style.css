@@ -86,7 +86,7 @@ html {
 .lien:visited {
     font-style: normal;
     text-decoration: none;
-};
+}
 
 .bold {
     font-weight: bold;
@@ -732,8 +732,8 @@ h3, p {
     .carte-modele-1 {
         width: 100%;
         padding-bottom: 60%;
+    }
 }
-
 @media screen and (max-width: 420px) {
     .container_modele_1 {
         width: 100%;
@@ -757,9 +757,4 @@ h3, p {
         width: calc(100% - 40px);
         padding: 0px 10px 0px 0px;
     }
-
-}
-
-.markdown-body {
-    width: 100%;
 }
