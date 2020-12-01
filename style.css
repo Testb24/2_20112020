@@ -78,13 +78,13 @@ html {
     display: flex;
     justify-content: flex-end;
     order: 5;
-    margin: 30px;
+    margin: 0px 30px;
     
     background-color: purple;
 }
 .nav_anchor {
     width: auto;
-    margin: 30px;
+    margin: 0px 30px;
     
     background-color: red;
 }
