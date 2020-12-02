@@ -40,6 +40,10 @@
     scroll-behavior: smooth;
   }
   
+  .normal {
+    width: 100%;
+    height: auto;
+  }
   .container_nav {
     width: calc(100% - 60px);
     display: flex;
@@ -554,6 +558,7 @@
   
     .column_modele_3 {
         width: 46%;
+        margin: 0px 0px 20px 0px;
     }
   }
   
@@ -571,6 +576,10 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
+
+    .column_modele_3 {
+      margin: 0px 0px 20px 0px;
+  }
   }
   @media screen and (max-width: 630px) {
 
