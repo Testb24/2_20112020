@@ -74,7 +74,7 @@ html {scroll-behavior: smooth;}
   padding: 20px 0px;
   margin: 0px 30px;}
 div.nav_anchor.active {
-  border-top: 5px var(--color1) solid;}
+  border-top: 3px var(--color1) solid;}
 .nav_anchor.active > a {
     color: var(--color1);}
 .nav_anchor > a {
@@ -582,8 +582,8 @@ position: absolute;
     border-bottom: 5px var(--color3) solid;
   }
   div.nav_anchor.active {
-    border-top: 5px var(--color1) none;
-    border-bottom: 5px var(--color1) solid;
+    border-top: 3px var(--color1) none;
+    border-bottom: 3px var(--color1) solid;
   }
 }
 @media screen and (max-width: 630px) {
