@@ -41,6 +41,10 @@ html {scroll-behavior: smooth;}
   padding: 0px;
   margin: 0px;
 }
+
+  h3 {
+    font-weight: bold;
+  }
 /* HEADER */
 /* HEADER */
 /* HEADER */
@@ -258,7 +262,7 @@ div.nav_anchor.active {
   border: 5px white solid;
   background-color: white;
   border-radius: 15px;
-  box-shadow: 0px 2px 2px rgb(216, 216, 216);
+  box-shadow: 0px 0px 25px rgb(223, 223, 223);
   position: relative;
 }
 .carte-modele-1 > div {
@@ -311,7 +315,7 @@ position: absolute;
   border: 5px white solid;
   background-color: white;
   border-radius: 15px;
-  box-shadow: 0px 2px 2px rgb(216, 216, 216);
+  box-shadow: 0px 0px 25px rgb(223, 223, 223);
   position: relative;
 }
 .carte-modele-2 > div {
@@ -360,6 +364,7 @@ position: absolute;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: white;
 }
 
 .column_modele_3 {
@@ -379,42 +384,42 @@ position: absolute;
 }
 .carte-modele-3A {
   width: 100%;
-  padding-bottom: 100%;
+  padding-bottom: 140%;
   display: flex;
   flex-direction: column;
   background-color: white;
   border-radius: 15px;
-  box-shadow: 0px 2px 2px rgb(216, 216, 216);
+  box-shadow: 0px 0px 25px rgb(223, 223, 223);
   position: relative;
 }
 .carte-modele-3B {
   width: 100%;
-  padding-bottom: 54%;
+  padding-bottom: 75%;
   display: flex;
   flex-direction: column;
   background-color: white;
   border-radius: 15px;
-  box-shadow: 0px 2px 2px rgb(216, 216, 216);
+  box-shadow: 0px 0px 25px rgb(223, 223, 223);
   position: relative;
 }
 .carte-modele-3C {
   width: 100%;
-  padding-bottom: 40%;
+  padding-bottom: 55%;
   display: flex;
   flex-direction: column;
   background-color: white;
   border-radius: 15px;
-  box-shadow: 0px 2px 2px rgb(216, 216, 216);
+  box-shadow: 0px 0px 25px rgb(223, 223, 223);
   position: relative;
 }
 .carte-modele-3D {
   width: 100%;
-  padding-bottom: 47%;
+  padding-bottom: 65%;
   display: flex;
   flex-direction: column;
   background-color: white;
   border-radius: 15px;
-  box-shadow: 0px 2px 2px rgb(216, 216, 216);
+  box-shadow: 0px 0px 25px rgb(223, 223, 223);
   position: relative;
 }
 .carte-modele-3A > div {
@@ -435,12 +440,14 @@ position: absolute;
 }
 .carte-modele-3-txt {
   width: 100%;
-  height: 30px;
+  height: 50px;
   padding: 0px 0px 10px 10px;
+  display: flex;
+  align-items: center;
 }
 .carte-modele-3-img {
   width: 100%;
-  height: calc(100% - 30px);
+  height: calc(100% - 50px);
   object-fit: cover;
   border-top-left-radius: 11px;
   border-top-right-radius: 11px;
