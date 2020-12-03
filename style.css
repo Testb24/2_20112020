@@ -230,7 +230,7 @@ div.nav_anchor.active {
 .container-hebergement{
   min-width: 300px;
   width: 62%;
-  padding: 20px;
+  padding: 10px 40px 20px 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -600,6 +600,7 @@ position: absolute;
   .container-hebergement{
       min-width: 250px;
       background-color: white;
+      padding: 10px 20px 10px 20px;
   }
   .collection_1 {
       min-width: auto;
