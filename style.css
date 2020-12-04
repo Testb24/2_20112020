@@ -10,7 +10,8 @@
 
   @font-face {
     font-family: 'raleway';
-    src: url('./Police_Raleway/Raleway-Regular.ttf');}
+    src: url('./Police_Raleway/Raleway-Regular.ttf');
+  }
 
 .blue  {color: var(--color1);}
 .grey  {color: var(--color3);}  
@@ -145,8 +146,14 @@ div.nav_anchor.active {
   justify-content: center;
   align-items: center;
 }
+#ville {
+  font-weight: bold;
+  font-size: 14px;
+}
 .text_search {
-  width: 80px;
+  width: 90px;
+  font-weight: bold;
+  font-size: 14px;
 }
 .icone_search {
   width: 0;
@@ -439,9 +446,9 @@ position: absolute;
   top: 0; bottom: 0; left: 0; right: 0;
 }
 .carte-modele-3-txt {
-  width: 100%;
-  height: 50px;
-  padding: 0px 0px 10px 10px;
+  width: calc(100% - 15px);
+  height: 40px;
+  padding: 0px 0px 10px 15px;
   display: flex;
   align-items: center;
 }
@@ -452,6 +459,7 @@ position: absolute;
   border-top-left-radius: 11px;
   border-top-right-radius: 11px;
 }
+
 
 /* PART3 */
 /* PART3 */
@@ -700,15 +708,15 @@ position: absolute;
   }
   .carte-modele-3-img {
       width: 100%;
-      height: calc(100% - 60px);
+      height: calc(100% - 55px);
       object-fit: cover;
       border-top-left-radius: 11px;
       border-top-right-radius: 11px;
   }
   .carte-modele-3-txt {
       width: 100%;
-      height: 60px;
-      padding: 0px 0px 0px 20px;
+      height: 45px;
+      padding: 0px 0px 10px 20px;
       display: flex;
       align-items: center;
   }
