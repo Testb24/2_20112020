@@ -22,7 +22,9 @@
 
 .bold {font-weight: bold;}
 
-body {font-family: 'raleway', arial;}
+body {font-family: 'raleway', arial;
+margin: 0px;
+padding: 0px;}
 
 h1 {color:black;
     font-weight: bold;}
