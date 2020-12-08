@@ -109,16 +109,17 @@ div.nav_anchor.active {
   margin: 10px 0px;
 }
 .button_de_recherche {
-  width: 100%;
+  max-width: 400px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   height: 40px;
+  border-radius: 11px;
 }
 .button-icone {
-  height: 40px;
-  width: 35px;
+  height: 45px;
+  width: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,23 +131,24 @@ div.nav_anchor.active {
   position: relative;
 }
 .button-champs {
-  height: 40px;
-  border: 0px white none;
-  padding: 0px 0px 0px 10px;
-  border: 1px var(--color3) solid;
+  height: 45px;
+  padding: 0px 0px 0px 25px;
+  border: 2px var(--color3) solid;
   flex: 1;
-  max-width: 220px;
+  max-width: 225px;
 }
 .button-clic {
-  height: 40px;
-  width: auto;
-  border: 0px white none;
+  height: 45px;
+  min-width: 45px;
+  border: inherit;
   border-bottom-right-radius: 11px;
   border-top-right-radius: 11px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  position: relative;
+  left: -10px;
 }
 #ville {
   font-weight: bold;
