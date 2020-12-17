@@ -64,7 +64,7 @@ html {scroll-behavior: smooth;}
   align-items: center;}
 .header_logo{
   width: 100px;
-  padding: 0px 20px;}
+  padding: 0px 0px 0px 20px;}
 #img_logo {
   width: 100%;
   height: auto;}
@@ -728,7 +728,7 @@ position: absolute;
 
 
   #bloc_page {
-      width: 100%;
+      width: calc(100% - 10px);
       margin: 0px;
   }
 
